@@ -1,0 +1,21 @@
+# Boss Configuration file for Wyvern
+
+# How to build Wyvern boss
+build:
+  pattern:
+    - ' e '
+    - 'idi'
+    - ' d '
+  materials:
+    e: ENCHANTING_TABLE
+    i: IRON_BLOCK
+    d: REINFORCED_DEEPSLATE
+
+abilities:
+  ATTACK:
+    effects:
+      - 'LIGHTNING @Victim'
+  CUSTOM_MOB_DEFENSE:
+    effects:
+      - 'POTION:SLOW:0:40 @Attacker'
+      - 'FREEZE:40 @Attacker'
