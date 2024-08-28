@@ -27,7 +27,7 @@
 - **Build Bosses:** Create custom bosses using block patterns similar to Withers in Minecraft. You can design patterns with any blocks and there is no size limit for patterns.
 
 ### Mob and Spawner Stacking (Optional)
-- **Stack Mobs and Spawners:** Optionally stack both vanilla and custom mobs and spawners. This feature is disabled by default. Learn more about stacking [here](#).
+- **Stack Mobs and Spawners:** Optionally stack both vanilla and custom mobs and spawners. This feature is disabled by default. Learn more about stacking [here](https://mobs.advancedplugins.net/advancedmobs/mechanics/mobs-and-spawners-stacking).
 
 ### Spawner Levels
 - **Upgrade Spawners:** When stacking is enabled, you can upgrade spawners to increase spawn frequency, spawn amount multiplier, and adjust pricing for each level.
