@@ -1,0 +1,42 @@
+# Configuration for Random Mob Spawning
+
+# Is Random Spawning enabled?
+enabled: true
+
+# In what radius of player should mobs spawn?
+#  This respect all limitations of server (i.e. spawning range set)
+playerRadius: 100
+
+# What is the chance custom mob will spawn?
+#  The higher the chance, the more will spawn
+#  Setting to 100% will not make all mobs custom, only all attempts custom mobs (highest count of mobs)
+spawnChance: 25
+
+# How many custom mobs at total can be on the server?
+#  This limit is only for random spawned custom mobs
+randomMobLimit: 50
+
+# Random Spawn-able custom mobs list
+mobsAllowedToRandomSpawn:
+  - 'Demon'
+  - 'Dog'
+  - 'Dragon'
+  - 'Flamingo'
+  - 'Giraffe'
+  - 'Gorilla'
+  - 'Hippo'
+  - 'Monkey'
+  - 'Octopus'
+  - 'Raccoon'
+  - 'Raptor'
+  - 'Robot'
+  - 'Tiger'
+  - 'Turtle'
+  - 'Wyvern'
+  - 'Zebra'
+  - 'Snail'
+
+# Worlds list for random spawning
+#  In what worlds should random custom mobs spawn
+worldList:
+  - 'world'

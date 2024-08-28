@@ -1,0 +1,22 @@
+name: AdvancedMobs
+version: 1.11.0
+api-version: 1.13
+
+author: "GC"
+website: "https://advancedplugins.net/item/AdvancedMobs.47"
+description: "Generate new custom mobs in your world and change the way game is played. "
+
+main: net.advancedplugins.mobs.Core
+
+softdepend: [ AdvancedEnchantments, HolographicDisplays, SilkSpawners, Vault, SuperMobCoins, QuadrexMobCoins, Citizens, Citizens2, DecentHolograms, CMI,
+              EliteMobs, IridiumSkyblock, SuperiorSkyblock2, WildStacker, ModelEngine ]
+commands:
+  advancedmobs:
+    description: "AdvancedMobs Main Command"
+    aliases:
+      - am
+      - amobs
+  discoveries:
+    description: "Track your mob discoveries"
+    aliases:
+      - stats

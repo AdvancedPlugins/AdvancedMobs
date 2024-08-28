@@ -1,0 +1,239 @@
+
+settings:
+  health: 25 # Mob's health
+  sounds: OCELOT # Sound List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  hostile: false # Is mob hostile? If set to false, mob will not be aggressive towards players
+  nametagHeight: 0.3 # How high should the nametag be?
+  damage: 3 # How much damage should the mobs do to players?
+  animateOnWalking: true # Should animation be active only when mob is walking?
+  animationSmoothness: 10 # How smooth should the animation be? 1-20, higher being smoother.
+  animationSpeed: 1 # How smooth should the animation be? 1-20, lower being faster.
+  biomes: # Random spawning in specified biomes. Biome list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html, set to 'all' to use all biomes
+    - 'FOREST'
+    - 'PLAINS'
+    - 'RIVER'
+    - 'SAVANNA'
+    - 'SWAMP'
+    - 'BREACH'
+    - 'BADLANDS'
+    - 'JUNGLE'
+
+skins:
+  exampleSkin: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1MGY1ZTRkZjZiMThlYjYzN2RlYTllMzE5NTNjOGRlZmNjNzhjZjYzZjE2YmY5YjhiMDkwNGJhYWU0NjlkNiJ9fX0=
+  govde: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgxOTFkNDVjYjBlMTJjMTU5YzNhMmUxMDA3YzliY2I3NWE2ZDljMDA4ZWNmZGVmYjU5MTYwOTE2OGYxOGJhYiJ9fX0=
+  ayak1: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZiMDczMWUzNTVhMzhiYmQ4ZDM2ZGFiNGZhMDdiY2IyOTM2ZWNmYjY3YzI5MzJkMTllMmVkOTk4MDU4ZDNiNSJ9fX0=
+  ayak2: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBhYmZmYTRjZDRhMjVkNjU0YmYwMGU0ZDA4MjYzMGNjN2E5OTI0OGJmMjA4M2Q0ODQ3NzE5MjJjOTdhN2Y3MiJ9fX0=
+  ayak3: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE4NzE3ODlmYWQ0MWU3MzUyM2UxN2RmNmYzODhmMWFmMDUwMjI5MjQ0NGRkMzAwZDkzYjlhODA2M2I1YmYyYyJ9fX0=
+  
+parts:
+  kafaalt1:
+    forwardBackward: 0.0
+    upDown: 0.3825
+    rightLeft: 0.69
+    visible: false
+    mini: true
+    headPose: -60;0;0
+    headItem: govde
+  kafaust1:
+    forwardBackward: 0.0
+    upDown: 0.7025
+    rightLeft: 0.875
+    visible: false
+    mini: true
+    headPose: -60;0;0
+    headItem: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1MGY1ZTRkZjZiMThlYjYzN2RlYTllMzE5NTNjOGRlZmNjNzhjZjYzZjE2YmY5YjhiMDkwNGJhYWU0NjlkNiJ9fX0=
+  burun1:
+    upDown: -0.462
+    forwardBackward: 0.9
+    rightLeft: 1.13
+    visible: false
+    mini: false
+    handItem: govde
+    right_handPose: -180;-35;-30
+  burun2:
+    upDown: -0.462
+    forwardBackward: 0.755
+    rightLeft: 1.13
+    visible: false
+    mini: false
+    handItem: govde
+    right_handPose: -180;-35;-30
+  kulak1:
+    upDown: 0.87
+    forwardBackward: 0.28
+    rightLeft: 0.79
+    visible: false
+    mini: true
+    handItem: ayak2
+    right_handPose: -180;-35;-30
+  kulak2:
+    upDown: 0.87
+    forwardBackward: 0.55
+    rightLeft: 0.79
+    visible: false
+    mini: true
+    handItem: ayak3
+    right_handPose: -180;-35;-30
+  govde1:
+    forwardBackward: 0.0
+    upDown: -0.7
+    rightLeft: 0.28
+    visible: false
+    mini: false
+    headPose: 0;0;0
+    headItem: govde
+  govdeorta1:
+    forwardBackward: 0.0
+    upDown: -0.7
+    rightLeft: -0.296
+    visible: false
+    mini: false
+    headPose: 0;0;0
+    headItem: govde
+  kuyruk1:
+    forwardBackward: -0.085
+    upDown: -0.86
+    rightLeft: -1.4
+    visible: false
+    mini: false
+    right_handPose: -106;-23;38
+    handItem: ayak2
+  kuyruk2:
+    forwardBackward: -0.0899
+    upDown: -0.68
+    rightLeft: -1.28
+    visible: false
+    mini: false
+    right_handPose: -106;-23;38
+    handItem: ayak3
+  kuyruk3:
+    forwardBackward: -0.0998
+    upDown: -0.50
+    rightLeft: -1.16
+    visible: false
+    mini: false
+    right_handPose: -106;-23;38
+    handItem: ayak2
+  yele1:
+    forwardBackward: -0.07
+    upDown: 0.69
+    rightLeft: 0.5
+    visible: false
+    mini: true
+    headPose: 0;60;90
+    headItem: material:stone_slab damage:7
+  yele2:
+    forwardBackward: -0.07
+    upDown: 0.85
+    rightLeft: 0.595
+    visible: false
+    mini: true
+    headPose: 0;60;90
+    headItem: material:stone_slab damage:7
+  ayak_arka_1:
+    forwardBackward: 0.6
+    upDown: -0.9
+    rightLeft: -0.85
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak1
+  ayak_arka_2:
+    forwardBackward: 0.6
+    upDown: -0.66
+    rightLeft: -0.85
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak2
+  ayak_arka_3:
+    forwardBackward: 0.6
+    upDown: -0.4118
+    rightLeft: -0.85
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak3
+  ayak_arka_sag_1:
+    forwardBackward: 1.05
+    upDown: -0.9
+    rightLeft: -0.85
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak1
+  ayak_arka_sag_2:
+    forwardBackward: 1.05
+    upDown: -0.66
+    rightLeft: -0.85
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak2
+  ayak_arka_sag_3:
+    forwardBackward: 1.05
+    upDown: -0.4118
+    rightLeft: -0.85
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak3
+  ayak_on_1:
+    forwardBackward: 0.6
+    upDown: -0.9
+    rightLeft: 0
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak1
+  ayak_on_2:
+    forwardBackward: 0.6
+    upDown: -0.66
+    rightLeft: 0
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak2
+  ayak_on_3:
+    forwardBackward: 0.6
+    upDown: -0.4118
+    rightLeft: 0
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak3
+  ayak_on_sag_1:
+    forwardBackward: 1.05
+    upDown: -0.9
+    rightLeft: 0
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak1
+  ayak_on_sag_2:
+    forwardBackward: 1.05
+    upDown: -0.66
+    rightLeft: 0
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak2
+  ayak_on_sag_3:
+    forwardBackward: 1.05
+    upDown: -0.4118
+    rightLeft: 0
+    visible: false
+    mini: false
+    right_handPose: -45;45;0
+    handItem: ayak3
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+settings:
+  Sounds: ''
+  Nametagheight: 0
+  Animationspeed: 1
+  Animationsmoothness: 5
+  Displayitem: head
+  health: 20
+  biomes: # Random spawning in specified biomes. Biome list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html, set to 'all' to use all biomes
+    - 'FOREST'
+    - 'PLAINS'
+    - 'SAVANNA'
+    - 'BREACH'
+    - 'BADLANDS'
+    - 'JUNGLE'
+
+parts:
+  back_Left:
+    mini: true
+    upDown: -1
+    forwardBackward: 0.2
+    rightLeft: -1
+    right_handPose: 190;500;13
+    handItem: 'material:COAL_BLOCK '
+  back_Right:
+    mini: true
+    upDown: -1
+    forwardBackward: -0.2
+    rightLeft: -1
+    right_handPose: 190;500;13
+    handItem: 'material:COAL_BLOCK '
+  back_Slab:
+    upDown: -0.95
+    forwardBackward: 0
+    rightLeft: -0.9325
+    headPose: 90;0;0
+    headItem: 'material:QUARTZ_SLAB '
+  front_Left:
+    mini: true
+    upDown: -1
+    forwardBackward: 0.2
+    rightLeft: 0
+    right_handPose: 190;500;13
+    handItem: 'material:COAL_BLOCK '
+  front_Right:
+    mini: true
+    upDown: -1
+    forwardBackward: -0.2
+    rightLeft: 0
+    right_handPose: 190;500;13
+    handItem: 'material:COAL_BLOCK '
+  front_Slab:
+    upDown: -0.95
+    forwardBackward: 0
+    rightLeft: 0
+    headPose: 90;0;0
+    headItem: 'material:QUARTZ_SLAB '
+  head:
+    mini: false
+    upDown: -1
+    forwardBackward: 0
+    rightLeft: 0.3
+    headItem: http://textures.minecraft.net/texture/947b68ed021632f408fc223ef7957c24786ae509a84e6f18a371a55c3d8cf909
+  middle_Belly:
+    upDown: -0.95
+    forwardBackward: 0
+    rightLeft: -0.625
+    headPose: 90;0;0
+    headItem: 'material:COAL_BLOCK '
+  tail:
+    mini: true
+    upDown: -0.25
+    forwardBackward: -0.05
+    rightLeft: -1.15
+    right_handPose: 183;500;13
+    handItem: 'material:COAL_BLOCK '
+animations:
+  '1':
+    front_Left:
+      right_handPose: 215;525;13
+    back_Left:
+      right_handPose: 190;500;13
+    front_Right:
+      right_handPose: 190;500;13
+    back_Right:
+      right_handPose: 215;525;13
+    tail:
+      right_handPose: 183;500;29
+  '2':
+    front_Left:
+      right_handPose: 190;500;13
+    back_Left:
+      right_handPose: 215;525;13
+    front_Right:
+      right_handPose: 215;525;13
+    back_Right:
+      right_handPose: 190;500;13
+    tail:
+      right_handPose: 183;500;0
+  '3':
+    front_Left:
+      right_handPose: 190;500;13
+    back_Left:
+      right_handPose: 190;500;13
+    front_Right:
+      right_handPose: 190;500;13
+    back_Right:
+      right_handPose: 190;500;13
+    tail:
+      right_handPose: 183;500;14

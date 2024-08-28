@@ -1,0 +1,79 @@
+settings:
+  Sounds: ''
+  Nametagheight: 0
+  Animationspeed: 1
+  Animationsmoothness: 5
+  Displayitem: head
+  HEALTH: 10
+  biomes: # Random spawning in specified biomes. Biome list: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html, set to 'all' to use all biomes
+    - 'FOREST'
+    - 'PLAINS'
+    - 'RIVER'
+    - 'SAVANNA'
+    - 'SWAMP'
+    - 'BREACH'
+    - 'BADLANDS'
+    - 'JUNGLE'
+    - 'OCEAN'
+
+parts:
+  body:
+    mini: true
+    upDown: -0.149
+    forwardBackward: 0
+    rightLeft: 0.2
+    headPose: 180;0;0
+    headItem: 'material:GOLD_BLOCK '
+  head:
+    mini: true
+    upDown: -0.2
+    forwardBackward: 0
+    rightLeft: 0.5
+    headItem: http://textures.minecraft.net/texture/7520717aff2a660b29411c014b88918b72d11d0853ac2c6ff4eee2888e33a7
+  l_leg:
+    mini: true
+    upDown: -0.3
+    forwardBackward: 0.42
+    rightLeft: 0.3
+    handItem: 'material:RED_SANDSTONE_SLAB '
+  l_wing:
+    upDown: -1.2
+    forwardBackward: 1.1
+    rightLeft: 0.3
+    right_handPose: -90;90;0
+    handItem: 'material:YELLOW_DYE '
+  r_leg:
+    mini: true
+    upDown: -0.3
+    forwardBackward: 0.0
+    rightLeft: 0.3
+    right_handPose: -0;0;0
+    handItem: 'material:RED_SANDSTONE_SLAB '
+  r_wing:
+    upDown: -1.2
+    forwardBackward: 0.65
+    rightLeft: 0.3
+    right_handPose: -90;90;0
+    handItem: 'material:YELLOW_DYE '
+animations:
+  '1':
+    head:
+      headPose: -5;0;0
+    r_wing:
+      right_handPose: -90;80;0
+    l_wing:
+      right_handPose: -90;100;0
+  '2':
+    head:
+      headPose: 0;0;0
+    r_wing:
+      right_handPose: -90;90;0
+    l_wing:
+      right_handPose: -90;110;0
+  '3':
+    head:
+      headPose: 5;0;0
+    r_wing:
+      right_handPose: -90;80;0
+    l_wing:
+      right_handPose: -90;100;0

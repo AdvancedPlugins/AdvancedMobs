@@ -1,0 +1,62 @@
+# Discoveries Menu Configuration
+# Opened with `/discoveries` command
+
+# Inventory title
+title: "&aDiscoveries"
+
+# Inventory size
+size: 54
+
+# In which slots should mob heads appear?
+# Range from first to last slot
+slots: 9-44
+
+# If mob hasn't been discovered, what item should be displayed instead?
+# Supports default item format https://wiki.advancedplugins.net/configuration/config-items
+undiscovered:
+  enabled: true
+  head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+  name: "&c&l%mob name%"
+  lore:
+    - '&c☒&7 Unknown'
+    - '&7Find and kill one to discover!'
+discovered:
+  name: "&a&l%mob name%"
+  lore:
+    - '&2☑&7 Discovered'
+    - '&2⚔&7 Kills: &a%kills%'
+
+# Inventory Items, configuration guide: https://wiki.advancedplugins.net/configuration/config-items
+items: # Actions: close, previous_page, next_page,
+  '0-8':
+    type: STAINED_GLASS_PANE
+    id: 7
+    custom-model-data: 0
+    name: ''
+    lore: []
+  '45-53':
+    type: STAINED_GLASS_PANE
+    id: 7
+    custom-model-data: 0
+    name: ''
+    lore: []
+  '49':
+    type: WOOD_DOOR
+    id: 0
+    custom-model-data: 0
+    action: close
+    name: '&cClose Menu'
+    lore:
+      - '&7Click here to close the pets menu.'
+  '48':
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzNlOTE5MTlkYjBhY2VmZGMyNzJkNjdmZDg3YjRiZTg4ZGM0NGE5NTg5NTg4MjQ0NzRlMjFlMDZkNTNlNiJ9fX0=
+    action: previous_page
+    name: '&aPrevious Page'
+    lore:
+      - '&7Go to previous page.'
+  '50':
+    head: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNmYzUyMjY0ZDhhZDllNjU0ZjQxNWJlZjAxYTIzOTQ3ZWRiY2NjY2Y2NDkzNzMyODliZWE0ZDE0OTU0MWY3MCJ9fX0=
+    action: next_page
+    name: '&aNext Page'
+    lore:
+      - '&7Go to next page.'

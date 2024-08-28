@@ -1,0 +1,13 @@
+# Breeding Configuration
+
+# Is breeding enabled?
+enabled: true
+
+mobs:
+  Dog: BONE
+  Giraffe: WHEAT_SEEDS
+  Hippo: WHEAT_SEEDS
+  Monkey: WHEAT_SEEDS
+  Raccoon: WHEAT_SEEDS
+  Robot: IRON_INGOT
+  Turtle: WHEAT_SEEDS

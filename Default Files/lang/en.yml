@@ -1,0 +1,40 @@
+prefix: "&b[AdvancedMobs]&r"
+spawnerItem:
+  name: '&e%spawner type% &7Spawner' # Spawner Item Name
+  lore:
+    - '&7Spawner Level &7%level%'
+    - '&ePlace spawner down to start spawning.'
+spawners:
+#  stackedMobName: "&e%mob name% &7x&e%amount%" # Name shown on top of Mobs
+  stackedSpawnerName: '&e%spawner type% &7Spawner (&ex%amount%&7)' # Text displayed by holograms on top of spawners
+  placedSpawner: '%prefix% &7You placed &e%spawner name%&7 spawner, new amount is %new amount%.'
+  brokeSpawner: '%prefix% &7You broke a &e%spawner name%&7 spawner, new amount is %new amount%.'
+#  placedSpawner: '&7You placed &e%mob name%&7 Spawner'
+spawnEggs: # Custom mob spawn eggs
+  name: '&a&l%mob name% &fSpawn Egg' # Spawn Egg name
+  lore: []
+commands:
+  playerOffline: '%prefix% &cSpecified player is offline!'
+  invalidMob: '%prefix% &cSpecified mob is invalid!'
+  spawnMob: '%prefix% &cSpawned %mob name%!'
+#  invalidNumber: '&c&lAdvancedSpawners &cSpecified number is invalid!'
+#  invalidMaterial: '&cInvalid Material!'
+  noPermission: '%prefix% &cNo permission to execute this command.'
+  giveCommand:
+    gaveSpawners: '%prefix% &7Gave &e%spawner name% x%amount%&7 spawners to &e%player%'
+    receivedSpawners: '%prefix% &7You received &e%spawner name% x%amount%&7 spawners'
+spawnerShop:
+#  cannotAfford: '&c&l(!) &cYou cannot afford this.'
+#  paid: '&a&l(!) &a- $%amount%'
+silktouchWarning:
+  message: '&cYou need silk touch to mine this spawner.'
+  permission: '&cYou need silk touch permission to mine this spawner.'
+spawnerRightClick:
+#  rightClickSecondTime: '&cRight click once again to open upgrades menu...' # For holograms activateOnRightClick setting
+upgrades: # Spawner Upgrades
+  purchased: '&aUpgrade purchased &lsuccessfully &7(- %price% %payment type%)'
+  cannotAfford: '&cYou cannot afford this transaction' # Can't afford upgrade
+mobs:
+  stackedName: "&e%mob name%&7 x%amount%"
+  customNames: # Change VANILLA mob names, to change custom mob names rename their files in 'customMobs' folder
+    PIG: "Piggy"

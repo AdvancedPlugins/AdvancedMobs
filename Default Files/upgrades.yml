@@ -1,0 +1,120 @@
+# Spawner Upgrades
+enabled: true
+
+# Economy used for pricing
+# Choose between EXP and VAULT
+economy: EXP
+
+menu:
+  name: "&eUpgrade Spawner"
+  size: 45
+  upgradesSlots: [ 0,9,18,19,20,11,2,3,4,13,22,23,24,15,6,7,8,17,26 ]
+  upgradeItem: # Unlocked levels will glow in menu
+    type: LIME_STAINED_GLASS_PANE
+    name: "&7Upgrade &e%spawner name% &7to &6level %new level%"
+    lore:
+      - ''
+      - '&fBonus:'
+      - '  &7Spawn amount: &e%spawn amount%%' #%spawnAmount% displays percentage value
+      - '  &7Spawn frequency: &e%spawn frequency%s' #%spawnFrequency% displays time in seconds between spawns
+      - ''
+      - '&fUnlock:'
+      - '  &7Price &b%price% EXP'
+    items:
+      '0-44':
+        type: GRAY_STAINED_GLASS_PANE
+        name: " "
+      '27-35':
+        type: BLACK_STAINED_GLASS_PANE
+        name: " "
+      '40':
+        type: MOB_SPAWNER
+        name: "&fInformation about this spawner:"
+        lore:
+          - "  &7Spawner Type: &e%spawner name%"
+          - "  &7Spawner Upgrades: &elvl %level%"
+
+# Price: amount of 'economy * spawner count' charged for upgrades
+# spawnAmount: boost of spawn amount, multiplies amount from spawnerStacking.mobsPerSpawner setting from config.yml
+# spawnTime: time between mob spawns, in ticks. 20 ticks = 1 second. Default in config.yml is 600.
+
+levels:
+  0: # Level 0 is default, this will not show up in upgrades menu
+    spawnAmount: 1
+    spawnTime: 400
+  1:
+    price: 500
+    spawnAmount: 1.05
+    spawnTime: 380
+  2:
+    price: 600
+    spawnAmount: 1.1
+    spawnTime: 360
+  3:
+    price: 700
+    spawnAmount: 1.15
+    spawnTime: 340
+  4:
+    price: 800
+    spawnAmount: 1.2
+    spawnTime: 320
+  5:
+    price: 1000
+    spawnAmount: 1.25
+    spawnTime: 300
+  6:
+    price: 1200
+    spawnAmount: 1.30
+    spawnTime: 280
+  7:
+    price: 1400
+    spawnAmount: 1.35
+    spawnTime: 260
+  8:
+    price: 1800
+    spawnAmount: 1.4
+    spawnTime: 240
+  9:
+    price: 2200
+    spawnAmount: 1.45
+    spawnTime: 220
+  10:
+    price: 3000
+    spawnAmount: 1.50
+    spawnTime: 200
+  11:
+    price: 4000
+    spawnAmount: 1.55
+    spawnTime: 180
+  12:
+    price: 5000
+    spawnAmount: 1.60
+    spawnTime: 160
+  13:
+    price: 7000
+    spawnAmount: 1.65
+    spawnTime: 140
+  14:
+    price: 9000
+    spawnAmount: 1.70
+    spawnTime: 120
+  15:
+    price: 11000
+    spawnAmount: 1.75
+    spawnTime: 100
+  16:
+    price: 14000
+    spawnAmount: 1.80
+    spawnTime: 80
+  17:
+    price: 18000
+    spawnAmount: 1.85
+    spawnTime: 60
+  18:
+    price: 22000
+    spawnAmount: 1.90
+    spawnTime: 40
+  19:
+    price: 30000
+    spawnAmount: 2
+    spawnTime: 20

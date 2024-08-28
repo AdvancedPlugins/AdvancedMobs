@@ -1,0 +1,34 @@
+settings:
+  Sounds: 'MAGMA_CUBE'
+  hostile: false
+  health: 20
+  Nametagheight: 0
+  Animationspeed: 1
+  Animationsmoothness: 5
+  Displayitem: head
+  walkingspeed: 0.6
+  biomes:
+    - 'ALL'
+
+parts:
+  head:
+    mini: false
+    upDown: -1.35
+    forwardBackward: 0
+    rightLeft: 0
+    right_handPose: -45;45;0
+    headItem: http://textures.minecraft.net/texture/1cf4fd6ee8dd9e46a8aa2026bd6d8f2f1984b9e6bca7e3f7dc312333675ab00e
+  trail1:
+    mini: false
+    upDown: -1.71875
+    forwardBackward: 0
+    rightLeft: -1.125
+    headPose: 90;0;0
+    headItem: 'material:SLIME_BALL damage:0 '
+  trail2:
+    mini: false
+    upDown: -1.71875
+    forwardBackward: 0
+    rightLeft: -1.375
+    headPose: 90;0;0
+    headItem: 'material:SLIME_BALL damage:0 '

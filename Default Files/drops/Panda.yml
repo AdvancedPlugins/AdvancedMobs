@@ -1,0 +1,25 @@
+# Drops Configuration
+#  Command drops are supported! Set `command: 'your command here'`, %player% placeholder is supported as a player name
+
+# Is Looting (Vanilla Enchant) enabled for this mob's drops?
+lootingEnabled: true
+
+# How much exp should the mob drop?
+exp: 2-5
+
+# This only works for Vanilla net.advancedplugins.mobs, decides whether vanilla drops should be disabled or not
+disableVanillaDrops: true
+
+drops:
+  0:
+    chance: 100
+    type: LEATHER
+    amount: 1-2
+    # List all levels which should have this drop
+    forLevels: 0-19
+  1:
+    chance: 100
+    type: BAMBOO
+    amount: 1-2
+    # List all levels which should have this drop
+    forLevels: 0-19

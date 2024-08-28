@@ -1,0 +1,91 @@
+# AdvancedMobs by GC
+# Version: 1.11.0
+# Release date: 26/08/2024
+
+# Wiki: https://mobs.advancedplugins.net
+
+settings:
+  language: en
+
+# Custom Mob Spawners
+customMobSpawners:
+  disabled: false # if set to true, any spawner handling will be disabled and custom mob spawners will not work
+
+# Spawner Stacking Settings
+spawnerStacking:
+  # Is spawner stacking enabled?
+  enabled: false
+  # Maximum number of spawners in a stack
+  maxSpawnersPerStack: 100
+  # Max distance in which spawners will stack together
+  maxStackDistance: 5
+  # Number of mobs spawning per spawner
+  mobsPerSpawner: "<random>1-4</random> * %spawner count% * %upgrades%"
+  # Default spawner spawning speed, in ticks
+  spawnSpeed: 600
+  # Are holograms enabled?
+  holograms: true
+
+# Stacked spawner breaking configuration
+spawnerBreaking:
+  silktouch:
+    # Is silk touch required to break a spawner?
+    required: true
+    # Silk touch permission required to break spawners
+    # Set as '' to disable
+    permission: 'advancedmobs.silktouch'
+    # Silk level required to break spawners
+    silkLevel: 1
+  # Should all stacked spawners be broken at once?
+  breakAll: false
+  # Should spawners be teleported to inventory instead of dropping?
+  teleportToInv: true
+  # Chance for spawners to drop from explosion.
+  # Set as 0 to disable
+  dropFromExplosionChance: 20
+
+# Mob Stacking Configuration
+mobStacking:
+  # Is mob stacking enabled?
+  enabled: false
+  # Should vanilla mobs stack?
+  # If set to false, only custom mobs will stack
+  stackVanillaMobs: true
+  # Max distance in which mobs will stack together
+  maxMobStackDistance: 16
+  # Maximum number of mobs in a stack
+  maxMobsPerStack: 100
+  # Should whole stack die when one is killed?
+  wholeStackDeath: false
+  # Stacked Mobs Blacklist
+  # Add any mob type you want here to not stack
+  mobBlacklist:
+    - 'ENDER_DRAGON'
+  # Should mobBlacklist work as whitelist?
+  # If set to true, only mobs from this list will stack
+  mobBlacklistAsWhitelist: false
+  # Should mobs from spawners have AI?
+  # If set to false, mobs from spawners will not have AI - will not walk or attack.
+  spawnerMobsAI: true
+
+# Custom Mobs Settings
+customMobs:
+  # Should mob turn red when it's damaged?
+  #  An artificial "damaged" animation is played for custom mobs upon damage
+  #  Setting to false will only show particles
+  customDamageAnimation: true
+
+  # Should custom mobs be persistent? If enabled, they will act like vanilla mobs and
+  #  custom mobs won't disappear after restarts or when leaving areas.
+  #  If set to false, once area is left or server restarts, mobs will not respawn
+  persistentMobs: true
+
+  # Limit of custom mobs in 1 chunk
+  #  Maximum is 50 mobs per chunk
+  customMobsPerChunk: 16
+
+  # Sound volume for custom mobs
+  # Set to 0 to disable sounds for custom mobs completely
+  # Default is 1.0
+  volume: 1.0
+
